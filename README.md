@@ -1,6 +1,7 @@
 
 
 - a. Como foi a definição da sua estratégia de modelagem?
+
 Foi feita toda uma análise de preprocessamento dos dados e engenharia de features, para criação de novas variáveis que possibilitam em uma modelagem melhor
 
 - b. Como foi definida a função de custo utilizada?
@@ -14,8 +15,7 @@ Realizei alguns testes com modelos simples (regressão linear e arvores), porém
 - d. Qual foi o critério utilizado para validação do modelo?
 Por que escolheu utilizar este método?
 
-Cross validation. 
-In order to build more robust models, it is common to conduct a k-fold cross validation where all the entries in the original training dataset are used for both training and validation. XGBoost supports k-fold cross validation via the cv method. All we have to do is specify the nfolds parameter, which is the number of cross validation rounds you want to build.
+Foi utilizado a validação cruzada pelo k-fold, onde todas as entradas no conjunto de dados de treinamento original são usadas para treinamento e validação. Como o XGBoost suporta a validaçao cruzada k-fold pelo método cv, foi utilizado ele.
 
 - e. Quais evidências você possui de que seu modelo é
 suficientemente bom?
